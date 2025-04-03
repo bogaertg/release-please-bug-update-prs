@@ -1,0 +1,19 @@
+{
+  "include-component-in-tag": true,
+  "include-v-in-tag": false,
+  "tag-separator": "@",
+  "separate-pull-requests": true,
+  "component-no-space": false,
+  "always-update": true,
+  "packages": {
+    "package1": {
+      "package-name": "package1",
+      "release-type": "python"
+    },
+    "package2": {
+      "package-name": "package2",
+      "release-type": "python"
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
